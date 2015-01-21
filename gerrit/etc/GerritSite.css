@@ -1,0 +1,131 @@
+body{
+	margin: 0px;
+
+}
+
+	.gerritTopMenu{
+	padding 		: 0px 		!important;
+	height			: 90px;
+	background 		: -webkit-linear-gradient(#EB6424 50%, #F77537 50%) !important;
+    background 		: -o-linear-gradient(#EB6424 50%, #F77537 50%)		!important;
+    background 		: -moz-linear-gradient(#EB6424 50%, #F77537 50%)	!important;
+    background 		: linear-gradient(#EB6424 50%, #F77537 50%) 		!important;
+    min-height: 90px;
+}
+
+.topmenuTDmenu{
+	padding-left 	: 350px;
+}
+
+.screenHeader{
+	color: #EB6424;
+}
+.menuBarUserName{
+	color: #1c1c1c;
+}
+.topmenuTDglue{
+	position 		: absolute;
+	left 			: 0px;
+	top 			: 0px;
+	width 			: 200px !important;
+	height 			: 90px;
+}
+
+.crlogo{
+	width: 280px;
+	padding-left: 20px;
+	padding-top: 10px;
+}
+.topmenuMenuLeft{
+	top: 10px !important;
+	padding-top: 0px !important;
+}
+
+#head{
+
+}
+
+#head img{
+	position: relative;
+	top: -90px;
+}
+
+.gwt-TabBarItem.gwt-TabBarItem-selected{
+	padding-top: 10px !important;
+	color 			: white !important;
+	border-bottom-color	: #F77537 !important;
+	background-color: #F77537 !important;
+}
+
+.menuScreenMenuBar a{
+	color: black !important;
+	background-color: #EEEEEE;
+}
+.menuScreenMenuBar a.menuItem.activeRow{
+	background-color: white !important;
+	border: 1px solid #EEEEEE;
+}
+
+.linkMenuBar{
+	float: right;
+}
+.gwt-TabPanelBottom{
+	padding-top: 10px !important;
+}
+
+.gwt-TextBox{
+	border: none;
+	color: #767676;
+}
+
+.gwt-Button{
+	background: none !important;
+	border: none !important;
+	background-color: #eeeeee !important;
+	font-size: 9pt !important;
+	padding-top: 2px !important;
+	padding-bottom: 2px !important;
+}
+.gwt-Button:hover {
+	background-color: #ffffff !important;
+}
+
+.linkMenuBar{
+	font-size: 10pt !important;
+}
+
+.gwt-TabBarItem{
+	color: white !important;
+}
+
+.gwt-TabBar td{
+	font-size: 12pt !important;
+}
+
+.topmenuMenuLeft tbody tr td table.gwt-TabBar{
+	border-bottom: none !important;
+}
+
+.menuItem{
+	color: white !important;
+}
+.menuItem.activeRow {
+	background: #F77537 !important;
+	text-decoration: underline;
+}
+
+#foot{
+	background 		: url(static/bg.png);
+	position 		: fixed !important;
+	bottom 			: 0px;
+	width 			: 100%;
+	height 			: 300px;
+	z-index: -10;
+}
+#foot .blobb{
+	width 			: 600px;
+	z-index			: 100;
+	position 		: absolute;
+	top 			: 10%;
+	left 			: 70%
+}
